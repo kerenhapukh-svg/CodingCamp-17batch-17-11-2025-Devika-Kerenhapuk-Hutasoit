@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo"><img src="image2.png" width="80" height="90"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#profile">Our Profile</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#message">Message Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1 id="greeting">Hi..., Welcome To Website</h1>
+        <p>Ini adalah website latihan pertama</p>
+        <img src="image.png" width="1366" height="578" />
+    </section>
+
+    <!-- OUR HEADQUARTER -->
+    <section class="hq-section">
+        <h2>Kantor Pusat Kami ada di </h2>
+        <div class="hq-container">
+            <div class="hq-item">
+                <div class="circle"></div>
+                <p>Jakarta</p>
+            </div>
+            <div class="hq-item">
+                <div class="circle"></div>
+                <p>Medan</p>
+            </div>
+            <div class="hq-item">
+                <div class="circle"></div>
+                <p>Denpasar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MESSAGE US -->
+    <section class="message-section" id="message">
+        <h2>Message Us</h2>
+        <div class="message-container">
+            <form id="contactForm" class="message-form">
+                <label>Nama:</label>
+                <input type="text" id="name" />
+
+                <label>Email:</label>
+                <input type="email" id="email" />
+
+                <label>Nomor Telepon:</label>
+                <input type="text" id="phone" />
+
+                <label>Pesan:</label>
+                <textarea id="messageInput"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="message-output">
+                <h3>Data Anda:</h3>
+                <p id="output"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Keren</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+
+</body>
+</html>
